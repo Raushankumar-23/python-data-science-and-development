@@ -1,5 +1,5 @@
 # 📅 Day 2 – Operators & if-else (10 Questions)
-# Perform all arithmetic operations on two numbers.
+# 1. Perform all arithmetic operations on two numbers.
 
 # num1=float(input("Enter a first number : "))
 # num2=float(input("Enter a second number : "))
@@ -12,7 +12,7 @@
 # print("Floor value of",num1, "divide by",num2,"is",num1//num2)
 
 
-# Compare two numbers using relational operators.
+# 2. Compare two numbers using relational operators.
 
 # num1=float(input("Enter a first number : "))
 # num2=float(input("Enter a second number : "))
@@ -23,7 +23,7 @@
 # print(num1>=num2)
 # print(num1<=num2)
 
-# Demonstrate logical operators.
+# 3. Demonstrate logical operators.
 
 # n1=float(input("Enter a first number : "))
 # n2=float(input("Enter a second number : "))
@@ -39,7 +39,7 @@
 # print(not(n1>n2))
 
 
-# Demonstrate assignment operators.
+# 4. Demonstrate assignment operators.
 
 # a=10
 # a+=5
@@ -55,7 +55,7 @@
 # a//=2
 # print(a)
 
-# Check whether a number is positive or negative.
+# 5. Check whether a number is positive or negative.
 
 # n=float(input("Enter a  number : "))
 # if n>0:
@@ -65,7 +65,7 @@
 # else:
 #     print(n,"is negative number")
 
-# Check whether a number is even or odd using if-else.
+# 6. Check whether a number is even or odd using if-else.
 
 # n=int(input("Enter a  number : "))
 # if n%2==0:
@@ -73,7 +73,7 @@
 # else:
 #     print(n,"is odd number")
 
-# Find the largest of two numbers.
+# 7. Find the largest of two numbers.
 
 # n1=int(input("Enter a first number : "))
 # n2=int(input("Enter a second number : "))
@@ -83,7 +83,7 @@
 # else:
 #     print(n2,"is grater than",n1)
     
-# Find the largest of three numbers.
+# 8. Find the largest of three numbers.
 
 # n1=int(input("Enter a first number : "))
 # n2=int(input("Enter a second number : "))
@@ -99,7 +99,7 @@
 #     else:
 #         print(n3,"is grater in",n1,n2,n3)
 
-# Write a grade calculator program.
+# 9. Write a grade calculator program.
 
 # marks=int(input("Enter a your marks : "))
 # if marks>=90:
@@ -115,7 +115,7 @@
 # else:
 #     print("Fail")
 
-# Check whether a person is eligible to vote.
+# 10. Check whether a person is eligible to vote.
 
 # age=int(input("Enter your age in Years : "))
 # if age>=18:

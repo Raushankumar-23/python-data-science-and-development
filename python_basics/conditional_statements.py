@@ -38,8 +38,43 @@
 #     print("Invalid Email")
     
 #Advance : Missing Data Check
-value = "sdf"
-if value =="":
-    print("Missing Data Found")
+# value = "sdf"
+# if value =="":
+#     print("Missing Data Found")
+# else:
+#     print("Data available")
+
+security_code = int(input("Enter a security code : "))
+
+if security_code == 5566:
+    department = input("Enter your department : ")
+
+    if department == "Finance":
+        access_level = int(input("Enter your access level : "))
+
+        if access_level >= 5:
+            print("Access Granted : Welcome to the meeting room")
+        else:
+            print("Insufficient access level")
+    else:
+        print("Access denied : Department not allowed")
 else:
-    print("Data available")
+    print("Invalid Security Code")
+
+    
+# reg_number = int(input("Enter your registration number : "))
+
+# if reg_number == 1221:
+#     exam_subject = input("Enter exam subject : ")
+
+#     if exam_subject.title() == "Python":
+#         password = int(input("Enter password : "))
+
+#         if password == 8888:
+#             print("Login Successful! Start your exam")
+#         else:
+#             print("Wrong password")
+#     else:
+#         print("Subject not available")
+# else:
+#     print("Registration failed")
