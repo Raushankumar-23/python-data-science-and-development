@@ -15,8 +15,6 @@
     
 # print("Length of String : ",count)
     
-
-
 # Write a program to convert a string to uppercase and lowercase.
 
 # text=input("Enter a string : ")
