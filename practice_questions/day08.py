@@ -141,21 +141,87 @@
 
 # Write a program to raise a custom exception for invalid age.
 
-try:
-    age=int(input("Enter your age "))
-    if age<0:
-        raise ValueError
-    print("Your age is : ",age)
-except ValueError:
-    print("Enter valid age ")
-    
-print("reset of code")
+# class InvalidAgeError(Exception):
+#     pass
+
+# try:
+#     age = int(input("Enter your age: "))
+#     if age < 0:
+#         raise InvalidAgeError("Age cannot be negative")
+#     print("Your age is:", age)
+
+# except InvalidAgeError as e:
+#     print("Custom Error:", e)
+
+# except ValueError:
+#     print("Please enter a valid integer age")
+
+# print("Rest of code")
 
 
 # Write a program to create and use a user-defined exception class.
 
+# User-defined exception class
+
+# class InvalidMarksError(Exception):
+#     pass
+
+# try:
+#     marks = int(input("Enter marks: "))
+#     if marks < 0 or marks > 100:
+#         raise InvalidMarksError("Marks must be between 0 and 100")
+#     print("Marks:", marks)
+
+# except InvalidMarksError as e:
+#     print("Custom Error:", e)
+
+# except ValueError:
+#     print("Please enter a valid integer")
+
+
 # Write a program to handle exceptions inside a function.
+
+# Exception handling inside a function
+
+# def divide(a, b):
+#     try:
+#         result = a / b
+#         return result
+#     except ZeroDivisionError:
+#         return "Error: Cannot divide by zero"
+#     except TypeError:
+#         return "Error: Invalid data type"
+
+# print(divide(10, 2))
+# print(divide(10, 0))
+
 
 # Write a program to handle exceptions while performing dictionary operations.
 
+# Exception handling in dictionary operations
+
+# student = {"name": "Rahul", "marks": 85}
+
+# try:
+#     print("Grade:", student["grade"])
+# except KeyError:
+#     print("Error: Key not found in dictionary")
+
+# try:
+#     student["marks"] = student["marks"] + "10"
+# except TypeError:
+#     print("Error: Invalid operation on dictionary value")
+
+
 # Write a program to demonstrate nested try–except blocks.
+# Nested try–except example
+
+try:
+    try:
+        num = int(input("Enter a number: "))
+        result = 10 / num
+        print("Result:", result)
+    except ZeroDivisionError:
+        print("Inner Error: Division by zero")
+except ValueError:
+    print("Outer Error: Invalid input")

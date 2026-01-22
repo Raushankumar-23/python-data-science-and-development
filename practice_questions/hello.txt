@@ -1,6 +1,3 @@
-I created a file named hello.txt
-and wrote some content into it using Java file handling.
-I used write mode to add multiple lines of text to the file and then closed it properly to save the data.
-After writing, I opened the same file in read mode to verify the content. 
-This practice helped me understand how to create files, 
-write data, read data, and manage files safely in Java.
+101,Rahul,85
+102,Amit,90
+103,Neha,88

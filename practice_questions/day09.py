@@ -117,10 +117,57 @@
 
 # Write a program to find the frequency of each word in a file.
 
+# word_freq = {}
+# with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "r")as f:
+#     words = f.read().split()
+#     for word in words:
+#         word_freq[word] = word_freq.get(word, 0) + 1
+
+# print("\nWord Frequency:")
+# for word, count in word_freq.items():
+#     print(word, ":", count)
+
 # Write a program to find the longest word in a file.
+
+# with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "r")as f:
+#     words = f.read().split()
+
+# longest_word = max(words, key=len)
+# print("\nLongest word:", longest_word)
+
 
 # Write a program to remove blank lines from a file.
 
+# with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "r")as f:
+#     lines = f.readlines()
+
+# with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "w")as f:
+    
+#     for line in lines:
+#         if line.strip():
+#             f.write(line)
+
+# print("Blank lines removed.\n")
+
 # Write a program to handle FileNotFoundError using exception handling.
 
+# try:
+#     with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hepllo.txt", "r")as f:
+#         print(f.read())
+# except FileNotFoundError:
+#     print("Error: File not found.\n")
+
 # Write a program to store and retrieve student records from a file.
+
+with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "w")as f:
+    f.write("101,Rahul,85\n")
+    f.write("102,Amit,90\n")
+    f.write("103,Neha,88\n")
+
+print("Student Records:")
+with open(r"C:\Users\Raushan Kumar\OneDrive\Desktop\python-data-science-and-development\practice_questions\hello.txt", "r")as f:
+    for line in f:
+        roll, name, marks = line.strip().split(",")
+        print("Roll:", roll, "Name:", name, "Marks:", marks)
+
+print("\n=== Day 09 Practice Completed ===")
