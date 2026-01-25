@@ -1,6 +1,6 @@
-nested = [[1, 2], [3, 4], [5, 6]]
+list1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,64,24,64]
 
-# # Flattening using list comprehension
-# flat = [item for sublist in nested for item in sublist]
+# result = (x for x in list1 if x % 2 == 0)
 
-# print("Flattened list:", flat)
+# for i in result:
+#     print(i)
