@@ -1,7 +1,7 @@
 #1️⃣ Procedural Programming Paradigm
 
-def add(a, b):
-    return a + b
+# def add(a, b):
+#     return a + b
 
 # def subtract(a, b):
 #     return a - b
@@ -14,6 +14,7 @@ def add(a, b):
 
 
 #2️⃣ Object-Oriented Programming (OOP) Paradigm
+
 # class Student:
 #     def __init__(self, name, marks):
 #         self.name = name
