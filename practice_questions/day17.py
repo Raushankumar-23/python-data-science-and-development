@@ -1,4 +1,4 @@
-# 🔹 Day 15 – Classes & Objects (Job-Oriented Practice)
+# 🔹 Day day17 – Classes & Objects (Job-Oriented Practice)
 # 🟢 Easy (Foundation – All Roles)
 
 # Create a User class with name and email and display details.
@@ -410,27 +410,27 @@
 
 # Create a reusable class that can be used in different projects.
 
-class User:
-    def __init__(self, user_id, name, email):
-        self.user_id = user_id
-        self.name = name
-        self.email = email
+# class User:
+#     def __init__(self, user_id, name, email):
+#         self.user_id = user_id
+#         self.name = name
+#         self.email = email
 
-    def get_data(self):
-        return {
-            "id": self.user_id,
-            "name": self.name,
-            "email": self.email
-        }
+#     def get_data(self):
+#         return {
+#             "id": self.user_id,
+#             "name": self.name,
+#             "email": self.email
+#         }
 
-    def show_data(self):
-        print("User ID:", self.user_id)
-        print("Name:", self.name)
-        print("Email:", self.email)
+#     def show_data(self):
+#         print("User ID:", self.user_id)
+#         print("Name:", self.name)
+#         print("Email:", self.email)
 
 
-u1 = User(1, "Raushan", "raushan@gmail.com")
-u2 = User(2, "Rohit", "rohit@gmail.com")
+# u1 = User(1, "Raushan", "raushan@gmail.com")
+# u2 = User(2, "Rohit", "rohit@gmail.com")
 
-u1.show_data()
-u2.show_data()
+# u1.show_data()
+# u2.show_data()

@@ -1,3 +1,66 @@
+#types of constractor -> constractor is a special method, used for object initialization.
+#Different type of constractor -> defualt,non- parametrizes,parametrize
+# default constractor -> if we have not written any constractor in the class, then python adds one.
+
+# class Person:
+#     def sayHi(self):
+#         print("Hi")
+        
+        
+# peson1=Person()
+# peson2=Person()
+# peson3=Person()
+
+# peson1.sayHi()
+# peson2.sayHi()
+# peson2.sayHi()
+
+
+
+#non parametrised
+
+# class Person:
+#     def __init__(self):
+#         self.name="Raushan"
+#         self.age=21
+
+        
+#     def sayHi(self):
+#         print("Hi")
+        
+# peson1=Person()
+# peson2=Person()
+# peson2=Person()
+
+
+# print(peson1.name)
+# print(peson2.name)
+# print(peson2.name)
+
+
+
+
+#paramerised constractor
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name="Raushan"
+#         self.age=21
+
+        
+#     def sayHi(self):
+#         print("Hi")
+        
+# peson1=Person("Rohit",22)
+# peson2=Person("Rahul",20)
+
+# print(peson1.name)
+# print(peson2.name)
+
+
+
+
+
 # class Test:
 #     def __init__(self):
 #         print("Constructor executed")
