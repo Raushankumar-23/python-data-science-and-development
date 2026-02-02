@@ -21,10 +21,9 @@
 # owl=Owl()
 # person=Person()
 
-
 # canfly(owl)
 # canfly(airplane)
-# #canfly(person)  #create error
+# # #canfly(person)  #create error
 
 
 
@@ -41,7 +40,6 @@
 # class Lion(Animal):
 #     def eat(self):  # redefined function
 #         print("Lion can eat")
-#     pass
 
 # lion=Lion()
 # lion.eat()
